@@ -1,6 +1,6 @@
 var spinner = document.querySelector(".loading"),
     allahomBl8na = document.querySelector(".bl8narmdn"),
-    quran = document.querySelector(".quran");
+    quran = document.querySelector(".quran"), rmdanAhlan = document.querySelector(".rmdnahln");
     
     window.addEventListener("load", () => {
        
@@ -9,7 +9,7 @@ var spinner = document.querySelector(".loading"),
             spinner.style.display = "none";
             document.body.style.overflow = "auto";
         }, 5000);
-
+        rmdanAhlan.play();
     })
 
 const count = document.querySelector(".count");
