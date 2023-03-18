@@ -3,7 +3,7 @@
     --main-color: rgb(239 182 64);
     --sec-color: white;
     --background-color: rgb(143 80 14 / 50%);
-    --section-padding : 100px
+    --section-padding : 81px
 }
 /* End Variables */
 /* Start Global Rules */
@@ -436,14 +436,14 @@ header {
         flex-direction: column;
         display: flex;
         justify-content: center!important;
-        padding: 34px 0 0;
+        padding: 20px 0 0;
         align-items: center;
-        gap: 14px!important;
+        gap: 3px!important;
     }
     .landing .container .count .countt {
-        width: 106px;
-        height: 106px;
-        font-size: 29px;
+        width: 96px;
+        height: 96px;
+        font-size: 25px;
     }
    
 }
