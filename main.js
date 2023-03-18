@@ -1,9 +1,9 @@
 var spinner = document.querySelector(".loading"),
-    welAudio = document.querySelector(".rmdnahln"), allahomBl8na = document.querySelector(".bl8narmdn"),
+    allahomBl8na = document.querySelector(".bl8narmdn"),
     quran = document.querySelector(".quran");
     
     window.addEventListener("load", () => {
-        welAudio.play();
+       
         document.body.style.overflow = "hidden";
         setInterval(() => {
             spinner.style.display = "none";
