@@ -462,6 +462,7 @@ header {
     color: var(--main-color);
     font-weight: 500;
     font-size: 30px;
+    transition: .3s;
 }
 .section-header:hover {
     background-image: url(../images/secheader1.png);
