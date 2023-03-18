@@ -984,7 +984,7 @@ body.about::before {
     padding: 7px 10px;
     background-color: var(--main-color);
     color: black;
-    top: 16%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: .3s;
