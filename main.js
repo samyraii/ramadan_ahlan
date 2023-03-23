@@ -8,7 +8,7 @@ var spinner = document.querySelector(".loading"),
         setInterval(() => {
             spinner.style.display = "none";
             document.body.style.overflow = "auto";
-        }, 5000);
+        }, 4000);
         rmdanAhlan.play();
     })
 
@@ -33,7 +33,7 @@ let counter = setInterval(()  => {
 
     if (dateDiff < 0) {
         clearInterval(counter);
-        // count.style.display = "none";
+         count.style.display = "none";
 
 
     }
