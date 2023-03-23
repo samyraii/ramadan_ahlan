@@ -14,7 +14,7 @@ var spinner = document.querySelector(".loading"),
 
 const count = document.querySelector(".count");
 
-let countdowndate = new Date("Mar 23, 2023 00:00:00").getTime();
+let countdowndate = new Date("Mar 11, 2024 00:00:00").getTime();
 let counter = setInterval(()  => {
 
     let dateNow = new Date().getTime();
