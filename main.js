@@ -17,7 +17,7 @@ const done = document.querySelector(".landing .container .text");
 const doneTwo = document.querySelector(".landing .container");
 const ertha2 = document.querySelector(".landing .container .textTwo");
 
-let countdowndate = new Date("Feb 28, 2025 9:30:00").getTime();
+let countdowndate = new Date("Feb 28, 2025 21:35:00").getTime();
 let counter = setInterval(()  => {
 
     let dateNow = new Date().getTime();
