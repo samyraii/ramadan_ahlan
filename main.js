@@ -8,7 +8,7 @@ var spinner = document.querySelector(".loading"),
         setInterval(() => {
             spinner.style.display = "none";
             document.body.style.overflow = "auto";
-        }, 4000);
+        }, 2000);
         rmdanAhlan.play();
     })
 
@@ -17,7 +17,7 @@ const done = document.querySelector(".landing .container .text");
 const doneTwo = document.querySelector(".landing .container");
 const ertha2 = document.querySelector(".landing .container .textTwo");
 
-let countdowndate = new Date("Feb 28, 2025 22:20:00").getTime();
+let countdowndate = new Date("Feb 17, 2026 00:00:00").getTime();
 let counter = setInterval(()  => {
 
     let dateNow = new Date().getTime();
